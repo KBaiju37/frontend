@@ -1,0 +1,28 @@
+body{
+
+    background: lightsalmon;
+}
+h2{
+    background: darkgreen;
+    color: antiquewhite;
+    margin-left:  40px;
+    margin-top: 55px;
+    margin-right: 50px;
+}
+p{
+
+    background: darkorange;
+    margin-left: 40px;
+    padding-left: 55px;
+    padding-top: 30px;
+    border: 4px dashed blue;
+
+}
+p:hover{
+
+    background: black;
+    color: yellow;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
