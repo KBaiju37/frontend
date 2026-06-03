@@ -4,7 +4,23 @@ div{
     width: 50%;
 }
 span{
-     background: lightblue;
-     
+     background: white;
+
+
+}
+#a{
+color: blue;
+
+}
+#b{
+color: yellow;
+
+}
+#c{
+color:green;
+
+}
+#d{
+color: red;
 
 }
