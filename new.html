@@ -4,31 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-       h1{
-        color: red;
-        font-size: x-large;
-
-       }
-
-    </style>
 </head>
-<body>
-    <center>
-    <h1 id = "h"> now i know dom manipulation</h1>
-    <button onclick="h()" > Click me</button>
+<style>
+    h1{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    button{
 
-    <!-- on click of the button
-    text == Javascript is really tricky
-    color == aqua -->
-    </center>
-    <script>
-      abc = document.getElementById("h")
-    function h(){
-    abc.textContent = "javascript is really tricky"
-    abc.style.background = "white"
-    abc.style.color = "aqua"}
-    console.log("implementation done")
-    </script>
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <h1 id = "a">now i know dom manipulation</h1>
+    <button>Click me</button>
+    <script src="new.js"></script>
+    
 </body>
 </html>
