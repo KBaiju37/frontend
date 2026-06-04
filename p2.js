@@ -4,7 +4,9 @@ console.log(myColors)
 function cc(){
     if (myColors.style.background == "green"){
         myColors.style.background = "yellow"
-    } else {
-        myColors.style.background = "green"
+    } else if(myColors.style.background == "yellow"){
+            myColors.style.background = "white"
+        } else{
+            myColors.style.background = "green"
+        }
     }
-}
